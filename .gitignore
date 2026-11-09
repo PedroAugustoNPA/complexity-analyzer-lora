@@ -1,0 +1,25 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos privados
+.env
+.env.*
+
+# Modelos e checkpoints grandes
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.gguf
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
